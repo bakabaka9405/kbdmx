@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="kbdmx">
+      <UniqueIdentifier>{f721fd46-bc42-4164-aaf4-1e8209b47b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BKCL">
+      <UniqueIdentifier>{710330fd-fe6c-45db-885b-963f96e33a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BKCL\EConsole">
+      <UniqueIdentifier>{7fd0d0a8-c3a0-431e-baaf-c19f91630af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kbdmx\Scenes">
+      <UniqueIdentifier>{3b17dbd9-0160-4c8b-acd7-67e5a45dcd78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kbdmx\simdjson">
+      <UniqueIdentifier>{bc0e4822-95f5-494f-882d-01350f78b5ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kbdmx.ixx">
+      <Filter>kbdmx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BKCL\BKCL\Color.ixx">
+      <Filter>BKCL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BKCL\BKCL\Localization.ixx">
+      <Filter>BKCL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BKCL\BKCL\Math.ixx">
+      <Filter>BKCL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BKCL\BKCL\Util.ixx">
+      <Filter>BKCL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BKCL\BKCL\Vector2.ixx">
+      <Filter>BKCL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BKCL\BKCL\EConsole\EConsole.ixx">
+      <Filter>BKCL\EConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BKCL\BKCL\EConsole\Word.ixx">
+      <Filter>BKCL\EConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets.ixx">
+      <Filter>kbdmx</Filter>
+    </ClCompile>
+    <ClCompile Include="IO.ixx">
+      <Filter>kbdmx</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Welcome.ixx">
+      <Filter>kbdmx\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BKCL\BKCL\EConsole\Eiostream.ixx">
+      <Filter>BKCL\EConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes.ixx">
+      <Filter>kbdmx</Filter>
+    </ClCompile>
+    <ClCompile Include="simdjson\simdjson.h">
+      <Filter>kbdmx\simdjson</Filter>
+    </ClCompile>
+    <ClCompile Include="simdjson\simdjson.cpp">
+      <Filter>kbdmx\simdjson</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
